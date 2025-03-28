@@ -25,7 +25,7 @@
     quick-tap-ms = <100>;
     global-quick-tap;
     flavor = "tap-preferred";
-    tapping-term-ms = <170>;
+    tapping-term-ms = <100>;
 };
 
 / {
@@ -70,7 +70,7 @@
                 <&mt0 1 SPACE>,
                 <&mt LCTRL ESCAPE>;
 
-            tapping-term-ms = <170>;
+            tapping-term-ms = <100>;
         };
         mt0: mt0 {
             compatible = "zmk,behavior-hold-tap";
@@ -80,7 +80,7 @@
                 <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <170>;
+            tapping-term-ms = <100>;
             hold-trigger-key-positions = <33>;
         };
         mt1: mt1 {
@@ -91,7 +91,7 @@
                 <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <170>;
+            tapping-term-ms = <100>;
             hold-trigger-key-positions = <36>;
         };
         td1: td1 {
@@ -102,7 +102,7 @@
                 <&mt1 1 SPACE>,
                 <&mt CAPSLOCK RSHFT>;
 
-            tapping-term-ms = <170>;
+            tapping-term-ms = <100>;
         };
         td2: td2 {
             compatible = "zmk,behavior-hold-tap";
@@ -112,7 +112,7 @@
                 <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <100>;
             hold-trigger-key-positions = <34>;
         };
         td3: td3 {
@@ -131,7 +131,7 @@
                 <&mt COLON SEMICOLON>,
                 <&mt SQT DOUBLE_QUOTES>;
 
-            tapping-term-ms = <200>;
+            tapping-term-ms = <100>;
         };
         td5: td5 {
             compatible = "zmk,behavior-tap-dance";
@@ -141,7 +141,7 @@
                 <&mt LS(Q) Q>,
                 <&mt TILDE GRAVE>;
 
-            tapping-term-ms = <200>;
+            tapping-term-ms = <100>;
         };
     };
 
